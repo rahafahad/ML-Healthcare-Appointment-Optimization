@@ -18,6 +18,14 @@ Project Objectives
 * Compare model performance using multiple evaluation metrics.
 * Build a web application for appointment-related workflows.
 
+
+Table Test
+
+Model	Accuracy
+Logistic Regression	67.29%
+Random Forest	59.25%
+XGBoost	58.68%
+
 Technologies & Tools
 
 Category	Technologies
