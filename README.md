@@ -68,7 +68,6 @@ The following models were evaluated:
 
 ```markdown
 | Metric | Logistic Regression | Random Forest | XGBoost |
-|---|---:|---:|---:|
 | Accuracy | 67.29% | 59.25% | 58.68% |
 | Precision | 32.38% | 30.88% | 30.69% |
 | Recall | 56.81% | 82.00% | 82.98% |
