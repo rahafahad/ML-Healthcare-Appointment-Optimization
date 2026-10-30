@@ -93,8 +93,9 @@ The project includes a Flask-based web application with appointment-related func
 * Patient and doctor dashboards.
 * SQLite database integration.
 
-Project Structure
+## Project Structure
 
+```text
 ML-Healthcare-Appointment-Optimization/
 │
 ├── backend/
@@ -103,15 +104,13 @@ ML-Healthcare-Appointment-Optimization/
 │
 ├── flask/
 │   ├── app.py
-│   ├── appointdbscript.py
-│   └── logindbscript.py
+│   └── ...
 │
 ├── frontend/
 │
 ├── d3.html
 ├── d4.html
 ├── requirements.txt
-├── readme.txt
 └── README.md
 
 Running the Project Locally
