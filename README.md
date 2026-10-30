@@ -96,21 +96,19 @@ The project includes a Flask-based web application with appointment-related func
 
 Project Structure
 
+The repository is organized as follows:
+
 ML-Healthcare-Appointment-Optimization/
-│
 ├── backend/
 │   ├── Intro.ipynb
 │   └── ML_Models.ipynb
-│
 ├── flask/
 │   ├── app.py
 │   ├── appointdbscript.py
 │   ├── logindbscript.py
 │   └── ...
-│
 ├── frontend/
 │   └── ...
-│
 ├── d3.html
 ├── d4.html
 ├── requirements.txt
@@ -118,12 +116,11 @@ ML-Healthcare-Appointment-Optimization/
 
 Directory Overview
 
-* backend/ – Data exploration, preprocessing, feature engineering, and machine learning experiments.
-* flask/ – Flask application and database-related scripts.
-* frontend/ – Frontend files for the web application.
-* d3.html / d4.html – Additional project interface or visualization files.
-* requirements.txt – Python dependencies required to run the project.
-* README.md – Project documentation and setup instructions.
+* backend/: Data exploration, preprocessing, and machine learning models.
+* flask/: Flask application and database scripts.
+* frontend/: Frontend application files.
+* requirements.txt: Project dependencies.
+* README.md: Project documentation.
 
 Running the Project Locally
 
