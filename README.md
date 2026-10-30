@@ -194,7 +194,8 @@ Project Structure
 
 The repository is organized as follows:
 
-ML-Healthcare-Appointment-Optimization/
+ML-Healthcare-Appointment-Optimization/ 
+
 ├── backend/
 │   ├── Intro.ipynb
 │   └── ML_Models.ipynb
