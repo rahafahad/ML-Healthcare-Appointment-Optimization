@@ -30,6 +30,14 @@ Database	SQLite
 Frontend	HTML, CSS, JavaScript
 Development Tools	Jupyter Notebook, VS Code
 
+Machine Learning Models & Results
+
+Metric	Logistic Regression	Random Forest	XGBoost
+Accuracy	67.29%	59.25%	58.68%
+Precision	32.38%	30.88%	30.69%
+Recall	56.81%	82.00%	82.98%
+F1-score	41.25%	44.86%	44.81%
+ROC-AUC	68.33%	73.27%	73.28%
 Dataset & Features
 
 The project uses historical medical appointment data containing patient demographics, medical conditions, and appointment information.
