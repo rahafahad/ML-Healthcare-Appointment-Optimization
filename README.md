@@ -106,16 +106,27 @@ ML-Healthcare-Appointment-Optimization/
 
 Run Locally
 
+1. Clone the repository
+
 git clone https://github.com/rahafahad/ML-Healthcare-Appointment-Optimization.git
+
+2. Install dependencies
+
 cd ML-Healthcare-Appointment-Optimization
 pip install -r requirements.txt
 
-Set the FLASK_SECRET_KEY environment variable, then run:
+3. Configure the secret key
+
+Set the FLASK_SECRET_KEY environment variable before starting the application.
+
+4. Start the application
 
 cd flask
 python app.py
 
-Open http://127.0.0.1:8000 in your browser.
+Open the application at:
+
+http://127.0.0.1:8000
 
 Future Improvements
 
