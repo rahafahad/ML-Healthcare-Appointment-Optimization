@@ -15,14 +15,20 @@ Objectives
 
 Technologies
 
-Category	Tools
-Programming	Python
-Machine Learning	Scikit-learn, XGBoost
-Data Analysis	Pandas, NumPy
-Visualization	Matplotlib, Seaborn
-Web Application	Flask, HTML, CSS, JavaScript
-Database	SQLite
-Development	Jupyter Notebook, VS Code
+<table>
+  <thead>
+    <tr><th>Category</th><th>Tools</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Programming</td><td>Python</td></tr>
+    <tr><td>Machine Learning</td><td>Scikit-learn, XGBoost</td></tr>
+    <tr><td>Data Analysis</td><td>Pandas, NumPy</td></tr>
+    <tr><td>Visualization</td><td>Matplotlib, Seaborn</td></tr>
+    <tr><td>Web Application</td><td>Flask, HTML, CSS, JavaScript</td></tr>
+    <tr><td>Database</td><td>SQLite</td></tr>
+    <tr><td>Development</td><td>Jupyter Notebook, VS Code</td></tr>
+  </tbody>
+</table>
 
 Dataset
 
@@ -45,12 +51,23 @@ Machine Learning Workflow
 
 Model Performance
 
-Metric	Logistic Regression	Random Forest	XGBoost
-Accuracy	67.29%	59.25%	58.68%
-Precision	32.38%	30.88%	30.69%
-Recall	56.81%	82.00%	82.98%
-F1-score	41.25%	44.86%	44.81%
-ROC-AUC	68.33%	73.27%	73.28%
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Logistic Regression</th>
+      <th>Random Forest</th>
+      <th>XGBoost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Accuracy</td><td>67.29%</td><td>59.25%</td><td>58.68%</td></tr>
+    <tr><td>Precision</td><td>32.38%</td><td>30.88%</td><td>30.69%</td></tr>
+    <tr><td>Recall</td><td>56.81%</td><td>82.00%</td><td>82.98%</td></tr>
+    <tr><td>F1-score</td><td>41.25%</td><td><strong>44.86%</strong></td><td>44.81%</td></tr>
+    <tr><td>ROC-AUC</td><td>68.33%</td><td>73.27%</td><td><strong>73.28%</strong></td></tr>
+  </tbody>
+</table>
 
 Key Findings
 
@@ -71,19 +88,21 @@ The Flask application includes:
 
 Project Structure
 
+<pre>
 ML-Healthcare-Appointment-Optimization/
 ├── backend/
 │   ├── Intro.ipynb
 │   └── ML_Models.ipynb
 ├── flask/
 │   ├── app.py
-│   └── ...
+│   └── Additional application and database scripts
 ├── frontend/
-│   └── ...
+│   └── Frontend files
 ├── d3.html
 ├── d4.html
 ├── requirements.txt
 └── README.md
+</pre>
 
 Run Locally
 
@@ -96,7 +115,7 @@ Set the FLASK_SECRET_KEY environment variable, then run:
 cd flask
 python app.py
 
-Open: http://127.0.0.1:8000
+Open http://127.0.0.1:8000 in your browser.
 
 Future Improvements
 
